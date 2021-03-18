@@ -32,11 +32,10 @@ html {
     width: 100%;
     transition: all 1s ease;
 }
-
 .project:hover img {
     transform: scale(1.25);
+    filter: blur(1px);
 }
-
 .project-icon {
     position: absolute;
     top: 16px;
