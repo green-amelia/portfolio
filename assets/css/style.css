@@ -46,17 +46,17 @@ html {
 .project img {
     width: 100%;
     transition: all 1s ease;
+    opacity: 1;
 }
 .project:hover img {
     transform: scale(1.25);
-    filter: blur(1px);
+    opacity: 0.3;
 }
 .project-icon {
     position: absolute;
     top: 16px;
     left: 16px;
 }
-
 
 /* Timeline holder */
 ul.timeline {
